@@ -61,15 +61,15 @@ const Home = () => {
           </p>
         </div>
         <div className={Styles.section2}>
-          <img src={image6} className={Styles.image} />
+          <img src={image6} className={Styles.image} loading="lazy" />
           <div className={Styles.descS2}>
             <p className={Styles.descTitleS2}>
               We Provide You The Best Experience.
             </p>
             <p className={Styles.describtionS2}>
               interior design is the art and science of enhancing the interior
-              of a buliding to achieve a healthier & more aesthetically
-              pleasing environment.
+              of a buliding to achieve a healthier & more aesthetically pleasing
+              environment.
               <br />
               <br />
               interior Design Compaines Usa - Quick And Easily Found At Asksly!
@@ -93,16 +93,16 @@ const Home = () => {
           <div className={Styles.slider}>
             <Slider {...settings}>
               <div>
-                <img src={image1} className={Styles.sliderImg} />
+                <img src={image1} className={Styles.sliderImg} loading="lazy" />
               </div>
               <div>
-                <img src={image2} className={Styles.sliderImg} />
+                <img src={image2} className={Styles.sliderImg} loading="lazy" />
               </div>
               <div>
-                <img src={image4} className={Styles.sliderImg} />
+                <img src={image4} className={Styles.sliderImg} loading="lazy" />
               </div>
               <div>
-                <img src={image5} className={Styles.sliderImg} />
+                <img src={image5} className={Styles.sliderImg} loading="lazy" />
               </div>
             </Slider>
           </div>

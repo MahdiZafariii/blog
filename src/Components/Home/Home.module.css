@@ -150,9 +150,6 @@
 .slider {
   width: 40%;
 }
-.sliderImg {
-  /* border-radius: 15px; */
-}
 .descS3 {
   width: 40%;
   height: 100%;
@@ -180,6 +177,7 @@
   font-size: 3rem;
   width: 80vw;
   text-align: center;
+  max-width: 600px;
 }
 .descS4 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -187,6 +185,7 @@
   width: 80vw;
   line-height: 1.8;
   text-align: center;
+  max-width: 650px;
 }
 .formContainer {
   /* width: 80vw; */
@@ -239,9 +238,6 @@
   .sliderImg {
     width: 25rem;
     height: 25rem;
-  }
-  .formContainer {
-    /* width: 40rem; */
   }
 }
 @media (max-width: 768px) {
@@ -320,9 +316,7 @@
     height: 60vh;
     margin-bottom: 8rem;
   }
-  .section3 {
-    /* height: 80vh; */
-  }
+
   .formContainer {
     width: 90vw;
   }
