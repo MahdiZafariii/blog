@@ -10,10 +10,12 @@ const Aboutus = () => {
     <main className={Styles.container}>
       <section className={Styles.content}>
         <p>
-          شرکت زیگورات فعالیت خود را از سال ۹۰ در زمینه طراحی و ساخت مصنوعات
-          سنگی (طبیعی و مصنوعی) آغاز کرد و در این مسیر سعی شد محصولاتی با کیفیتی
-          قابل رقابت با محصولات خارجی به مشتریان عزیز عرضه شود. شرکت زیگورات با
-          کادری متخصص و مجرب می کوشد تا سابقه ی درخشان خود را حفظ و افزایش دهد.
+          Opal company started its activity in 2012 in the field of design and
+          manufacture of stone products (natural and artificial) and in this
+          direction tried to offer quality products that can compete with
+          foreign products to our dear customers. Opal Company, with its
+          professional and experienced staff, strives to maintain and increase
+          its brilliant history.
         </p>
         <div className={Styles.imgContainer}>
           <motion.img

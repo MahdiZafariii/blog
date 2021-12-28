@@ -1,6 +1,6 @@
 .footerContainer {
   background-color: #286f6c;
-  height: 70vh;
+  height: 500px;
   margin-top: 50px;
   width: 100%;
   display: flex;
@@ -48,8 +48,9 @@
 .contact {
   color: #c0d8d7;
   width: 95%;
+  height: 250px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   /* width: 20rem; */
   margin-top: 50px;
@@ -72,7 +73,7 @@
 .iconContainer {
   margin-top: 1rem;
   font-size: 1.6rem;
-  /* width: 3rem; */
+  width: 15rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -98,9 +99,12 @@
   .iconContainer a {
     margin: 0 1rem;
     font-size: 1.3rem;
+    width: 15rem;
   }
   .contact {
+    flex-direction: row;
     width: 85vw;
+    height: 100px;
   }
   .contactItem h5 {
     font-size: 0.8rem;

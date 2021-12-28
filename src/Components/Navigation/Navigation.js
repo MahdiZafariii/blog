@@ -1,6 +1,6 @@
 import { NavLink, useLocation } from "react-router-dom";
 import Styles from "./Navigation.module.css";
-import logo from "./logo1.png";
+import logo from "./logo2.png";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Turn as Hamburger } from "hamburger-react";

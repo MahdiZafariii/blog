@@ -5,7 +5,7 @@
   height: 60px;
   align-items: center;
   justify-content: space-between;
-  background-color: #374151;
+  background-color: #286f6c;
 }
 .nav {
   width: 100%;
@@ -42,7 +42,7 @@
 }
 
 .nav ul li {
-  background-color: #374151;
+  background-color: #286f6c;
   padding: 0.5rem;
 }
 .NavLink {
@@ -81,6 +81,7 @@
   justify-content: space-between;
   /* background-color: red; */
   position: sticky;
+  padding: 0 30px 0 0;
 }
 .desktopNav ul {
   display: flex;

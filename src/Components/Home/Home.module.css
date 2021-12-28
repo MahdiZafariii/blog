@@ -188,7 +188,7 @@
   text-align: center;
 }
 .formContainer {
-  width: 80rem;
+  /* width: 80vw; */
   max-width: 900px;
   background-color: #fff;
   display: flex;
@@ -204,14 +204,14 @@
   font-size: 1.2rem;
 }
 .formContainer button {
-  width: 8rem;
+  width: 20%;
   padding: 15px 18px;
   background-color: #f26440;
   color: #fff;
   border: none;
   outline: none;
   cursor: pointer;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   font-size: 16px;
 }
 @media (max-width: 1280px) {
@@ -240,7 +240,7 @@
     height: 25rem;
   }
   .formContainer {
-    width: 40rem;
+    /* width: 40rem; */
   }
 }
 @media (max-width: 768px) {
@@ -253,8 +253,9 @@
     text-align: center;
   }
   .descLink,
-  .describtion {
-    font-size: 1.1rem;
+  .describtion,
+  .describtionS2 {
+    font-size: 16px;
   }
   .descTitleS4 {
     font-size: 1.8rem;
@@ -273,6 +274,7 @@
   }
   .describtionS2 {
     line-height: 1.5;
+    margin: 25px 0;
   }
   .image {
     width: 85vw;
@@ -296,14 +298,29 @@
     text-align: left;
   }
   .formContainer {
-    width: 20rem;
+    width: 80vw;
   }
   .formContainer input {
     font-size: 0.9rem;
   }
 }
 @media (max-width: 480px) {
+  .showCase {
+    height: 80vh;
+    margin-bottom: 120px;
+  }
   .imgContent {
     top: 30%;
+  }
+  .formContainer {
+    width: 90vw;
+  }
+  .formContainer input {
+    width: 70%;
+  }
+  .formContainer button {
+    width: 30%;
+    padding: 0px 5px;
+    font-size: 12px;
   }
 }

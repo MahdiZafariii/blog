@@ -16,7 +16,10 @@
   background-color: #fff;
   border-radius: 5px;
   padding: 1rem;
-  direction: rtl;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 25px;
+  /* direction: rtl; */
 }
 .imgContainer {
   justify-content: space-evenly;
@@ -37,7 +40,7 @@
 }
 @media (min-width: 480px) {
   .container {
-    margin-top: 11vh;
+    margin-top: 100px;
   }
   .content p {
     width: 90vw;
@@ -76,7 +79,7 @@
 }
 @media (min-width: 1280px) {
   .container {
-    margin-top: 14vh;
+    margin-top: 100px;
   }
   .imgContainer {
     width: 65vw;
